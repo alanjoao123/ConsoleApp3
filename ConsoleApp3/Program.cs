@@ -27,28 +27,88 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            //Questao1.HelloWorld();
-            //Questao2.QualSeuNNome();
-            //Questao3.CaslcularSalario();
-            //Questao4.Soma();
-            //Questao5.MediaDaNota();
-            //Questao6.AntecessorESucessor();
-            //Questao7.Dobro();
-            //Questao8.Quilometragem();
-            //Questao9.Dollar();
-            //Questao10.Parede();
-            //Questao11.EquacaoSegundoGrau();
-            //Questao12.CalcularDesconto();
-            //Questao13.AumentoSalario();
-            //Questao14.CalculaValorAluguelCarro();
-            //Questao15.CalculaSalarioPorHora();
-            //Questao16.CalculaDiasAMenos();
-            //Questao17.CalculaValorMulta();
-            //Questao18.VotoObrigatorio();
-            //Questao19.SituacaoDoAluno();
-            //Questao20.ParOuImpar();
-            //Calculadora.Calcular();
-            //Console.ReadKey();
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine(" Qual o execicio você quer abrir ?");
+                    var opcao = int.Parse(Console.ReadLine());
+
+                    switch (opcao)
+                    {
+                        case 1:
+                            Questao1.HelloWorld();
+                            break;
+                        case 2:
+                            Questao2.QualSeuNNome();
+                            break;
+                        case 3:
+                            Questao3.CaslcularSalario();
+                            break;
+                        case 4:
+                            Questao4.Soma();
+                            break;
+                        case 5:
+                            Questao5.MediaDaNota();
+                            break;
+                        case 6:
+                            Questao6.AntecessorESucessor();
+                            break;
+                        case 7:
+                            Questao7.Dobro();
+                            break;
+                        case 8:
+                            Questao8.Quilometragem();
+                            break;
+                        case 9:
+                            Questao9.Dollar();
+                            break;
+                        case 10:
+                            Questao10.Parede();
+                            break;
+                        case 11:
+                            Questao11.EquacaoSegundoGrau();
+                            break;
+                        case 12:
+                            Questao12.CalcularDesconto();
+                            break;
+                        case 13:
+                            Questao13.AumentoSalario();
+                            break;
+                        case 14:
+                            Questao14.CalculaValorAluguelCarro();
+                            break;
+                        case 15:
+                            Questao15.CalculaSalarioPorHora();
+                            break;
+                        case 16:
+                            Questao16.CalculaDiasAMenos();
+                            break;
+                        case 17:
+                            Questao17.CalculaValorMulta();
+                            break;
+                        case 18:
+                            Questao18.VotoObrigatorio();
+                            break;
+                        case 19:
+                            Questao19.SituacaoDoAluno();
+                            break;
+                        case 20:
+                            Questao20.ParOuImpar();
+                            break;
+                        default:
+                            Calculadora.Calcular();
+                            break;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Erro: {ex.Message}.");
+                    Console.ReadKey();
+                }               
+
+                Console.Clear();
+            }
         }
     }
 }
