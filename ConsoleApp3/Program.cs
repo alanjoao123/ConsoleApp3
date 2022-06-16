@@ -13,6 +13,7 @@ using ConsoleApp3.Questoes._18;
 using ConsoleApp3.Questoes._19;
 using ConsoleApp3.Questoes._2;
 using ConsoleApp3.Questoes._20;
+using ConsoleApp3.Questoes._21;
 using ConsoleApp3.Questoes._3;
 using ConsoleApp3.Questoes._4;
 using ConsoleApp3.Questoes._5;
@@ -95,6 +96,9 @@ namespace ConsoleApp3
                             break;
                         case 20:
                             Questao20.ParOuImpar();
+                            break;
+                        case 21:
+                            Questao21.
                             break;
                         default:
                             Calculadora.Calcular();
