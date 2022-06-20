@@ -31,14 +31,15 @@ namespace ConsoleApp3.Questoes._23
                 if (1 == sexo)
                 {
                     desconto1 = valorcomp - (valorcomp * 5 / 100);
-                    Console.WriteLine("Você é Homem , mas, ganhou desconto {0}", desconto1);
+                    Console.WriteLine("Você é Homem , mas, ganhou desconto. Seu valor ficou R$ {0} Reis.", desconto1);
+                    
                 }
                 else if (2 == sexo)
                 {
                     desconto2 = valorcomp - (valorcomp * 13 / 100);
-                    Console.WriteLine(" Feliz dia da mulher {0}", desconto2);
+                    Console.WriteLine(" Feliz dia da mulher!! Você ganhou desconto, Seu valor ficou de R$ {0} Reais.", desconto2);
                 }
-
+                Console.ReadKey();
             }
             catch(Exception ex)
             {
