@@ -25,9 +25,6 @@ namespace ConsoleApp3.Questoes._23
                 Console.WriteLine(" Qual o valor da Roupa: ");
                 valorcomp = int.Parse(Console.ReadLine());
 
-                //desconto1 = valorcomp - (valorcomp * 5 / 100);
-                //desconto2 = valorcomp - (valorcomp * 13 / 100);
-
                 if (1 == sexo)
                 {
                     desconto1 = valorcomp - (valorcomp * 5 / 100);
