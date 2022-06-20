@@ -18,7 +18,7 @@ namespace ConsoleApp3.Questoes._25
 
             if (r1 + r2 > r3 && (r2 + r3 > r1) && (r3 + r1 > r2)) 
             {
-                Console.WriteLine(" O tamanho dos lados formam um triângulo");
+                Console.WriteLine(" O tamanho dos lados formam um triangulo");
             }
             else
             {

@@ -8,11 +8,8 @@ namespace ConsoleApp3.Questoes._21
         {
             int ano;
 
-
-
             Console.Write(" Digite o Ano: ");
             ano = int.Parse(Console.ReadLine());
-
 
             if (ano % 4 == 0)
             {
@@ -22,7 +19,6 @@ namespace ConsoleApp3.Questoes._21
             {
                 Console.WriteLine(" Não é Ano Bissexto");
             }
-
             Console.ReadKey();
         }
     }

@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Runtime;
+
 
 namespace ConsoleApp3.Questoes._22
 {
@@ -7,28 +7,30 @@ namespace ConsoleApp3.Questoes._22
     {
         public static void Alistamento()
         {
-            Console.WriteLine(" Qual o ano do seu nascimento. (dd/MM/aaaa) ");
-            DateTime dataNascimento = DateTime.Parse(Console.ReadLine());
+            string nome;
+            float idade, nascimento, maioid, menorid;
 
-   
-            DateTime dataAtual = DateTime.Now;
+            Console.WriteLine(" Qual o seu nome? ");
+            nome = Console.ReadLine();
 
-            var idade:int = dataAtual.Year - dataNascimento.Year;
+            Console.WriteLine(" {0} Qual o seu ano de nascimento? ", nome);
+            nascimento = float.Parse(Console.ReadLine());
 
-            if (idade < 18)
+            idade = 2022 - nascimento;
+
+            if(idade < 18)
             {
-                Console.WriteLine(" Você não tem 18 anos. Falta {} anos. ", idade);
+                Console.WriteLine(" Você não tem 18 anos. falta alguns anos para você se Alistar.");
             }
             else if (idade == 18)
             {
-                Console.WriteLine(" Você te que se alistar. ", idade);
+                Console.WriteLine(" Você tem que se Alistar");
             }
             else
             {
-                Console.WriteLine(" Já passou do tempo do alistamento por {} anos ", idade);
+                Console.WriteLine(" Já passou do seu tempo de Alistamento. Hoje você tem {0} anos", idade);
             }
-            Console.ReadLine();
+            Console.ReadKey();
         }
-      
     }
 }
