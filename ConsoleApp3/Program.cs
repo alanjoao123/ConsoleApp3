@@ -14,6 +14,10 @@ using ConsoleApp3.Questoes._19;
 using ConsoleApp3.Questoes._2;
 using ConsoleApp3.Questoes._20;
 using ConsoleApp3.Questoes._21;
+using ConsoleApp3.Questoes._22;
+using ConsoleApp3.Questoes._23;
+using ConsoleApp3.Questoes._24;
+using ConsoleApp3.Questoes._25;
 using ConsoleApp3.Questoes._3;
 using ConsoleApp3.Questoes._4;
 using ConsoleApp3.Questoes._5;
@@ -98,8 +102,21 @@ namespace ConsoleApp3
                             Questao20.ParOuImpar();
                             break;
                         case 21:
-                            Questao21.
+                            Questao21.AnoBissexto();
                             break;
+                        case 22:
+                            Questao22.Alistamento();
+                            break;
+                        case 23:
+                            Questao23.Diadamulher();
+                            break;
+                        case 24:
+                            Questao24.Passageiro();
+                            break;
+                        case 25:
+                            Questao25.Triângulos();
+                            break;
+
                         default:
                             Calculadora.Calcular();
                             break;
