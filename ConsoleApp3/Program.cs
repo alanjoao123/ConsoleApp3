@@ -18,7 +18,12 @@ using ConsoleApp3.Questoes._22;
 using ConsoleApp3.Questoes._23;
 using ConsoleApp3.Questoes._24;
 using ConsoleApp3.Questoes._25;
+using ConsoleApp3.Questoes._26;
+using ConsoleApp3.Questoes._27;
+using ConsoleApp3.Questoes._28;
+using ConsoleApp3.Questoes._29;
 using ConsoleApp3.Questoes._3;
+using ConsoleApp3.Questoes._30;
 using ConsoleApp3.Questoes._4;
 using ConsoleApp3.Questoes._5;
 using ConsoleApp3.Questoes._6;
@@ -116,6 +121,24 @@ namespace ConsoleApp3
                         case 25:
                             Questao25.Triângulos();
                             break;
+                        case 26:
+                            Questao26.ComparadorNumeros();
+                            break;
+                        case 27:
+                            Questao27.MediaAluno();
+                            break;
+                        case 28:
+                            Questao28.MedidasTerreno();
+                            break;
+                        case 29:
+                            Questao29.ReajusteSalario();
+                            break;
+                        case 30:
+                            Questao30.TipoTriangulo();
+                            break;
+
+
+
 
                         default:
                             Calculadora.Calcular();
