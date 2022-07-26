@@ -42,6 +42,39 @@ namespace ConsoleApp3
                 try
                 {
                     Console.WriteLine(" Qual o execicio você quer abrir ?");
+                    Console.WriteLine(" 1 -  Hello World");
+                    Console.WriteLine(" 2 -  Qual seu nome");
+                    Console.WriteLine(" 3 -  Calcular Salário");
+                    Console.WriteLine(" 4 -  Soma");
+                    Console.WriteLine(" 5 -  MediaDaNota");
+                    Console.WriteLine(" 6 -  AntecessorESucessor");
+                    Console.WriteLine(" 7 -  Dobro");
+                    Console.WriteLine(" 8 -  Quilometragem");
+                    Console.WriteLine(" 9 -  Dollar");
+                    Console.WriteLine(" 10 - Parede");
+                    Console.WriteLine(" 11 - EquacaoSegundoGrau");
+                    Console.WriteLine(" 12 - CalcularDesconto");
+                    Console.WriteLine(" 13 - AumentoSalario");
+                    Console.WriteLine(" 14 - CalculaValorAluguelCarro");
+                    Console.WriteLine(" 15 - CalculaSalarioPorHora");
+                    Console.WriteLine(" 16 - CalculaDiasAMenos");
+                    Console.WriteLine(" 17 - CalculaValorMulta");
+                    Console.WriteLine(" 18 - VotoObrigatorio");
+                    Console.WriteLine(" 19 - SituacaoDoAluno");
+                    Console.WriteLine(" 20 - ParOuImpar");
+                    Console.WriteLine(" 21 - AnoBissexto");
+                    Console.WriteLine(" 22 - Alistamento");
+                    Console.WriteLine(" 23 - Diadamulher");
+                    Console.WriteLine(" 24 - Passageiro");
+                    Console.WriteLine(" 25 - Triângulos");
+                    Console.WriteLine(" 26 - ComparadorNumeros");
+                    Console.WriteLine(" 27 - MediaAluno");
+                    Console.WriteLine(" 28 - MedidasTerreno");
+                    Console.WriteLine(" 29 - ReajusteSalario");
+                    Console.WriteLine(" 30 - TipoTriangulo");
+
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" Digite a opção desejada: ");
                     var opcao = int.Parse(Console.ReadLine());
 
                     switch (opcao)
